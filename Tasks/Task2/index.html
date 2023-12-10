@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Просмотр сообщений</title>
+</head>
+<body>
+    <div class='chat'>
+        <div class='chat-input'>
+            <form method='post' id='chat-form'>
+                <input type='text' id='message-name' class='chat-form__input' placeholder='Введите имя'><input type='text' id='message-text' class='chat-form__input' placeholder='Введите сообщение'> <input type='submit' class='chat-form__submit' value='Отправить'>
+            </form>
+        </div>
+        <div class='chat-messages'>
+            <div class='chat-messages__content' id='messages'>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
